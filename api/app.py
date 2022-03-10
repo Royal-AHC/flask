@@ -13,5 +13,14 @@ app = Flask(__name__, static_folder="../static",
 def home():
     return "Hello"
 
+
+@app.route('/world', methods=['GET'])
+def home():
+    return "World"
+
+@app.route('/chill', methods=['GET'])
+def home():
+    return "Chill Mar Be Tu"
+
 if __name__ == "__main__":
     app.run()

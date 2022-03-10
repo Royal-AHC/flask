@@ -15,11 +15,11 @@ def home():
 
 
 @app.route('/world', methods=['GET'])
-def home():
+def world():
     return "World"
 
 @app.route('/chill', methods=['GET'])
-def home():
+def chill():
     return "Chill Mar Be Tu"
 
 if __name__ == "__main__":

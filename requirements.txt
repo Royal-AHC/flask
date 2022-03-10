@@ -1,0 +1,4 @@
+Flask
+# pillow
+numpy
+markupsafe==2.0.1

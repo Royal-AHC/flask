@@ -5,8 +5,6 @@ import sys
 root_path = os.path.abspath(__file__)
 root_path = '/'.join(root_path.split('/')[:-2])
 sys.path.append(root_path)
-from utils.picen import picen
-
 
 app = Flask(__name__, static_folder="../static",
             template_folder="../templates")
